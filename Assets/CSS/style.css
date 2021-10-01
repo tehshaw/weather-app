@@ -1,0 +1,56 @@
+.bg-blue-fade{
+    background-image: linear-gradient(to right,#2D7AF5, #123266);
+}
+
+#todays-weather{
+    border: 2px solid black;
+}
+
+.line-break{
+    border-bottom: 2px solid black;
+}
+
+.btn-blue{
+    color: white;
+    background-color: #2D7AF5;
+}
+
+.btn-grey{
+    color: black;
+    background-color: lightslategrey;
+}
+
+.card-blue{
+    background-color: #544B80;
+    color: white;
+}
+
+.uv{
+    color: white;
+    border-radius: 2px;
+    display: inline-block;
+    text-align: center;
+    width: 50px;
+}
+
+.uv-green{
+    background-color: green;
+}
+
+.uv-yellow{
+    background-color: #E9B166;
+}
+.uv-orange{
+    background-color: #B35610;
+}
+.uc-red{
+    background-color: red;
+}
+
+.small-img{
+    width: 25px;
+}
+
+.bg-main{
+    background-color: #E6AA2C;
+}
