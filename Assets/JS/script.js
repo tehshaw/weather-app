@@ -7,7 +7,7 @@
 //returns to the function that will see if there are more than one result
 function getCity(userLoc) {
 
-    let locationLink = 'http://api.openweathermap.org/geo/1.0/direct?q=' + userLoc + ',,us&limit=5&appid=bbf99ce475f76e1bf9b246ed351667b6';
+    let locationLink = 'https://api.openweathermap.org/geo/1.0/direct?q=' + userLoc + ',,us&limit=5&appid=bbf99ce475f76e1bf9b246ed351667b6';
     let cityDetials = locationAPI(locationLink);
     cityDetials.then((data) => {
         console.log(data);
